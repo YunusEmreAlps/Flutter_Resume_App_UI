@@ -73,14 +73,14 @@ List<TechSkill> skillList = [
   TechSkill(
     id: 9,
     color: Color(0xFFFFC107),
-    title: "C++",
-    skillLevel: 60,
+    title: "Github",
+    skillLevel: 75,
   ),
   TechSkill(
     id: 10,
     color: Color(0xFFFFC107),
-    title: "Github",
-    skillLevel: 75,
+    title: "C++",
+    skillLevel: 60,
   ),
   TechSkill(
     id: 11,
