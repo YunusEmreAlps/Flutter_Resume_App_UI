@@ -1,18 +1,13 @@
 // Libraries
-import 'package:my_resume/widgets/recent_widget.dart';
-
 import 'info.dart';
-import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:my_resume/size_config.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:my_resume/model/TechSkill.dart';
 import 'package:my_resume/constant/constant.dart';
-import 'package:my_resume/widgets/skill_bar.dart';
 import 'package:my_resume/widgets/social_card.dart';
+import 'package:my_resume/widgets/recent_widget.dart';
 import 'package:expansion_tile_card/expansion_tile_card.dart';
-import 'package:step_progress_indicator/step_progress_indicator.dart';
 
 // Structure
 class Body extends StatefulWidget {
