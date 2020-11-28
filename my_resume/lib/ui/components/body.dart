@@ -26,7 +26,7 @@ class _BodyState extends State<Body> {
       child: Column(
         children: <Widget>[
           Info(
-            image: "assets/images/pic.png",
+            image: "assets/images/avatar.png",
             name: "Yunus Emre Alpu",
             email: "yunus192alpu@gmail.com",
           ),
