@@ -5,9 +5,11 @@ import 'package:my_resume/size_config.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:my_resume/constant/constant.dart';
+import 'package:my_resume/app_localizations.dart';
 import 'package:my_resume/widgets/social_card.dart';
 import 'package:my_resume/widgets/recent_widget.dart';
 import 'package:expansion_tile_card/expansion_tile_card.dart';
+
 
 // Structure
 class Body extends StatefulWidget {
@@ -28,7 +30,7 @@ class _BodyState extends State<Body> {
           Info(
             image: "assets/images/avatar.png",
             name: "Yunus Emre Alpu",
-            email: "yunus192alpu@gmail.com",
+            jobName: "Computer Engineer",
           ),
           SizedBox(height: SizeConfig.defaultSize * 2), // 20
 
@@ -66,7 +68,7 @@ class _BodyState extends State<Body> {
               key: cardAboutMe,
               leading: SvgPicture.asset("assets/icons/question.svg"),
               title: Text(
-                'About Me',
+                AppLocalizations.getString("About Me"),
                 style: TextStyle(
                   fontFamily: 'NexaLight',
                   fontSize: SizeConfig.defaultSize * 1.8, // 18
@@ -82,10 +84,8 @@ class _BodyState extends State<Body> {
                       vertical: 8.0,
                     ),
                     child: Text(
-                      '''I solve problems in creative ways. At Konya NEU, where I am completing my junior year in the College of Engineering, I have learned the importance of applying classical strategies to modern-day projects. Software engineering is never ending puzzle that I am passionately in solving. This passion carried me through my education Purdue. First, I learned C then C++. I studied new languages, algorithms, compilers, higher mathematics, all with pretty much the same fascination.
-
-So, now, in industry, this passion remains with me. There’s certainly yet more to learn, yet more problems, and yet more to build.''',
-                      style: TextStyle(fontFamily: 'NexaLight', height: 1.5),
+                      AppLocalizations.getString(  "I solve problems in creative ways. At Konya NEU, where I am completing my junior year in the College of Engineering, I have learned the importance of applying classical strategies to modern-day projects. Software engineering is never ending puzzle that I am passionately in solving. This passion carried me through my education Purdue. First, I learned C then C++. I studied new languages, algorithms, compilers, higher mathematics, all with pretty much the same fascination.\n\nSo, now, in industry, this passion remains with me. There’s certainly yet more to learn, yet more problems, and yet more to build."),
+                      style: TextStyle(fontFamily: 'CaviarDreams', height: 1.5),
                     ),
                   ),
                 ),
@@ -102,7 +102,7 @@ So, now, in industry, this passion remains with me. There’s certainly yet more
               key: cardSkills,
               leading: SvgPicture.asset("assets/icons/settings.svg"),
               title: Text(
-                'Skills',
+                 AppLocalizations.getString("Skills"),
                 style: TextStyle(
                   fontFamily: 'NexaLight',
                   fontSize: SizeConfig.defaultSize * 1.8, // 18
@@ -150,7 +150,7 @@ So, now, in industry, this passion remains with me. There’s certainly yet more
               key: cardHobbies,
               leading: SvgPicture.asset("assets/icons/game_icon.svg"),
               title: Text(
-                'Hobbies',
+                AppLocalizations.getString("Hobbies"),
                 style: TextStyle(
                   fontFamily: 'NexaLight',
                   fontSize: SizeConfig.defaultSize * 1.8, // 18
@@ -166,10 +166,8 @@ So, now, in industry, this passion remains with me. There’s certainly yet more
                       vertical: 8.0,
                     ),
                     child: Text(
-                      '''Apart from being a developer, I enjoy most of my time being outdoors. I enjoy play guitar, learning new languages, meet new people.
-                      
-When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I spend a large amount of my free time exploring the latest technology advancements in the Programming world.''',
-                      style: TextStyle(fontFamily: 'NexaLight', height: 1.5),
+                      AppLocalizations.getString("Apart from being a developer, I enjoy most of my time being outdoors. I enjoy play guitar, learning new languages, meet new people.\n\nWhen forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I spend a large amount of my free time exploring the latest technology advancements in the Programming world."),
+                      style: TextStyle(fontFamily: 'CaviarDreams', height: 1.5),
                     ),
                   ),
                 ),

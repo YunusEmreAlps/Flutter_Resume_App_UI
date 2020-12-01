@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:my_resume/size_config.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:my_resume/constant/constant.dart';
+import 'package:my_resume/app_localizations.dart';
 import 'package:my_resume/ui/components/body.dart';
 
 // Structure
@@ -15,6 +16,7 @@ class _ResumeScreenState extends State<ResumeScreen> {
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
+    AppLocalizations.of(context);
     return Scaffold(
       appBar: buildAppBar(),
       body: Body(),
@@ -50,7 +52,7 @@ class _ResumeScreenState extends State<ResumeScreen> {
       leading: SizedBox(),
       centerTitle: true,
       title: Text(
-        "PROFILE",
+        AppLocalizations.getString("PROFILE"),
         style: TextStyle(
           fontFamily: 'NexaLight',
           letterSpacing: 2,

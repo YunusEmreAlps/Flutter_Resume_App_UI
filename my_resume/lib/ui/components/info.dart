@@ -8,10 +8,10 @@ class Info extends StatelessWidget {
   const Info({
     Key key,
     this.name,
-    this.email,
+    this.jobName,
     this.image,
   }) : super(key: key);
-  final String name, email, image;
+  final String name, jobName, image;
 
   @override
   Widget build(BuildContext context) {
@@ -62,7 +62,7 @@ class Info extends StatelessWidget {
                 SizedBox(height: defaultSize / 5), // 2
                 // User Email
                 Text(
-                  email,
+                  jobName,
                   style: TextStyle(
                     fontFamily: 'NexaLight',
                     fontWeight: FontWeight.w400,

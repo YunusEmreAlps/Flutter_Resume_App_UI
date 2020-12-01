@@ -33,6 +33,10 @@ dependencies:
   url_launcher: ^5.4.2
   expansion_tile_card: ^1.1.0
   step_progress_indicator: ^0.2.4+7
+  shared_preferences: ^0.5.6
+
+  flutter_localizations:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:
@@ -53,6 +57,7 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
+    - assets/langs/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -75,6 +80,9 @@ flutter:
     - family: BalooBhaina
       fonts:
         - asset: assets/fonts/BalooBhaina2-Regular.otf
+    - family: CaviarDreams
+      fonts:
+        - asset: assets/fonts/CaviarDreams.otf
 
 
   # For details regarding fonts from package dependencies,

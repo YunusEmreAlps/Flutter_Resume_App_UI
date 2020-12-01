@@ -31,9 +31,14 @@ class SkillBar extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(skill.title),
+            Text(
+              skill.title,
+              style: TextStyle(fontFamily: 'CaviarDreams', height: 1.5),
+            ),
             Text("\n"),
-            Text("% "+(skill.skillLevel.floor()).toString()),
+            Text(
+              "% "+(skill.skillLevel.floor()).toString(),
+              style: TextStyle(fontFamily: 'CaviarDreams', height: 1.5),),
           ],
         ),
       ),
