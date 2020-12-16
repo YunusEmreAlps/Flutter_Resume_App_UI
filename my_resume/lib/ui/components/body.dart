@@ -28,7 +28,7 @@ class _BodyState extends State<Body> {
       child: Column(
         children: <Widget>[
           Info(
-            image: "assets/images/avatar.png",
+            image: "assets/images/Me.jpg",
             name: "Yunus Emre Alpu",
             jobName: "Computer Engineer",
           ),
@@ -84,8 +84,8 @@ class _BodyState extends State<Body> {
                       vertical: 8.0,
                     ),
                     child: Text(
-                      AppLocalizations.getString(  "I solve problems in creative ways. At Konya NEU, where I am completing my junior year in the College of Engineering, I have learned the importance of applying classical strategies to modern-day projects. Software engineering is never ending puzzle that I am passionately in solving. This passion carried me through my education Purdue. First, I learned C then C++. I studied new languages, algorithms, compilers, higher mathematics, all with pretty much the same fascination.\n\nSo, now, in industry, this passion remains with me. There’s certainly yet more to learn, yet more problems, and yet more to build."),
-                      style: TextStyle(fontFamily: 'CaviarDreams', height: 1.5),
+                      AppLocalizations.getString("I solve problems in creative ways. At Konya NEU, where I am completing my junior year in the College of Engineering, I have learned the importance of applying classical strategies to modern-day projects. Software engineering is never ending puzzle that I am passionately in solving. This passion carried me through my education Purdue. First, I learned C then C++. I studied new languages, algorithms, compilers, higher mathematics, all with pretty much the same fascination.\n\nSo, now, in industry, this passion remains with me. There’s certainly yet more to learn, yet more problems, and yet more to build."),
+                      style: TextStyle(fontFamily: 'CaviarDreams', height: 1.5,),
                     ),
                   ),
                 ),

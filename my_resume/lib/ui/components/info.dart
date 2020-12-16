@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_resume/size_config.dart';
 import 'package:my_resume/constant/constant.dart';
+import 'package:my_resume/app_localizations.dart';
 
 // User
 class Info extends StatelessWidget {
@@ -62,7 +63,7 @@ class Info extends StatelessWidget {
                 SizedBox(height: defaultSize / 5), // 2
                 // User Email
                 Text(
-                  jobName,
+                  AppLocalizations.getString(jobName),
                   style: TextStyle(
                     fontFamily: 'NexaLight',
                     fontWeight: FontWeight.w400,
