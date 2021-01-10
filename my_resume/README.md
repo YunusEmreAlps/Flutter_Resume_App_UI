@@ -1,6 +1,10 @@
 # Flutter Resume App UI
 
-A new Flutter application.
+- You can create your own personal resume.
+- Work on both landscape and portrait mod
+- Pure Design
+- Multiple Language (TR - EN)
+
 
 ## Screenshots 📷
 
