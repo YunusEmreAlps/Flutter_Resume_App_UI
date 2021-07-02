@@ -5,8 +5,6 @@ import 'package:my_resume/ui/resume_screen.dart';
 import 'package:my_resume/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-// 17010011005
-// Yunus Emre Alpu
 
 // Main Function
 void main() => runApp(MyApp());

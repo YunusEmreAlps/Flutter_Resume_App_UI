@@ -22,7 +22,7 @@ class SocialCard extends StatelessWidget {
       child: Container(
         margin:
             EdgeInsets.symmetric(horizontal: SizeConfig.defaultSize), // 10
-        padding: EdgeInsets.all(SizeConfig.defaultSize * 0.6), // 6
+        padding: EdgeInsets.all(SizeConfig.defaultSize * 0.5), // 6
         height: SizeConfig.defaultSize * 4, // 40
         width: SizeConfig.defaultSize * 4, // 40
         decoration: BoxDecoration(
