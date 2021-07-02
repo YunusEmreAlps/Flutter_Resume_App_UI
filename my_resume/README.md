@@ -3,6 +3,8 @@
 <p align="center">
   <a href="https://github.com/YunusEmreAlps/Flutter_Resume_App_UI/tree/master/my_resume">
     <img src="assets/images/Logo1.png" alt="Logo" width="400">
+    <img src="assets/images/Logo2.png" alt="Logo" width="400">
+    <img src="assets/images/Logo3.png" alt="Logo" width="400">
   </a>
 
   <h3 align="center">Resume App</h3>
