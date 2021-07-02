@@ -14,9 +14,9 @@
     <br />
     <a href="https://github.com/YunusEmreAlps/Flutter_Resume_App_UI/">Download</a>
     ·
-    <a href="https://github.com/YunusEmreAlps/Flutter_Resume_App_UI/tree/master/my_resume/issues">Report Bug</a>
+    <a href="https://github.com/YunusEmreAlps/Flutter_Resume_App_UI/issues">Report Bug</a>
     ·
-    <a href="https://github.com/YunusEmreAlps/Flutter_Resume_App_UI/tree/master/my_resume/issues">Request Feature</a>
+    <a href="https://github.com/YunusEmreAlps/Flutter_Resume_App_UI/issues">Request Feature</a>
   </p>
 </p>
 
@@ -108,7 +108,7 @@ flutter run
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/YunusEmreAlps/Flutter_Resume_App_UI/tree/master/my_resume/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/YunusEmreAlps/Flutter_Resume_App_UI/issues) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
